@@ -1,1 +1,1 @@
-alert('module');
+console.log('hey');
