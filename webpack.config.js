@@ -16,9 +16,9 @@ module.exports = {
 				include: [
 					path.join(__dirname, "src")
 				],
-				test: /\.js$/,
+				test: /\.js?$/,
 				query: {
-					presets: ["es2015"]
+					presets: ["es2015", "react"]
 				}
 			},
 			{

@@ -8,7 +8,7 @@
     "build": "node_modules/.bin/webpack",
     "prod": "webpack -p --config webpack.prod.config.js",
     "watch": "node_modules/.bin/webpack --progress --colors --watch",
-    "dev": "node_modules/webpack-dev-server/bin/webpack-dev-server.js --progress --colors"
+    "serve": "node_modules/webpack-dev-server/bin/webpack-dev-server.js --progress --colors"
   },
   "author": "Joshua Brown",
   "license": "ISC",
